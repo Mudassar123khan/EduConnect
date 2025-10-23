@@ -10,7 +10,7 @@
 	"keywords": [
 		"educonnect-backend"
 	],
-	"author": "Saikat Mukherjee",
+	"author": "Mohd Mudassir Khan",
 	"license": "ISC",
 	"dependencies": {
 		"bcrypt": "^5.1.0",
