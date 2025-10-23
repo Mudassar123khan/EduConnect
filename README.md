@@ -51,41 +51,41 @@
    git clone https://github.com/Mudassar123khan/EduConnect
    cd EduConnect
 2.Install frontend dependencies:
-```bash
-npm install
-```
+  ```bash
+  npm install
+  ```
 3.Install backend dependencies:
-```bash
-cd server
-npm install
-```
+  ```bash
+  cd server
+  npm install
+  ```
 ## Create a .env file in the server/ folder with required variables:
-```bash
-MONGO_URI=<your_mongodb_uri>
-JWT_SECRET=<your_jwt_secret>
-RAZORPAY_KEY_ID=<your_key_id>
-RAZORPAY_KEY_SECRET=<your_key_secret>
-CLOUDINARY_CLOUD_NAME=<cloud_name>
-CLOUDINARY_API_KEY=<api_key>
-CLOUDINARY_API_SECRET=<api_secret>
-```
+  ```bash
+  MONGO_URI=<your_mongodb_uri>
+  JWT_SECRET=<your_jwt_secret>
+  RAZORPAY_KEY_ID=<your_key_id>
+  RAZORPAY_KEY_SECRET=<your_key_secret>
+  CLOUDINARY_CLOUD_NAME=<cloud_name>
+  CLOUDINARY_API_KEY=<api_key>
+  CLOUDINARY_API_SECRET=<api_secret>
+  ```
 
 ## Running the Project:
-```bash
-npm run dev
-```
+  ```bash
+  npm run dev
+  ```
 ## Project Structure:
-```bash
-EduConnect/
-├─ server/              # Backend logic, APIs, MongoDB models
-├─ node_modules/        # Project dependencies
-├─ public/              # React public assets
-├─ src/                 # React frontend code
-├─ package.json         # Frontend scripts & dependencies
-├─ server/package.json  # Backend scripts & dependencies
-├─ .env                 # Backend environment variables
-└─ README.md
-```
+  ```bash
+  EduConnect/
+  ├─ server/              # Backend logic, APIs, MongoDB models
+  ├─ node_modules/        # Project dependencies
+  ├─ public/              # React public assets
+  ├─ src/                 # React frontend code
+  ├─ package.json         # Frontend scripts & dependencies
+  ├─ server/package.json  # Backend scripts & dependencies
+  ├─ .env                 # Backend environment variables
+  └─ README.md
+  ```
 ## Future Enhancements:
    1.Live video streaming for courses.
 
@@ -94,4 +94,4 @@ EduConnect/
    3.Admin dashboard for monitoring platform activity.
 
 # License
-This project is licensed under the MIT License.
+  This project is licensed under the MIT License.
