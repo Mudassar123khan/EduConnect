@@ -1,31 +1,97 @@
-# React & Tailwind CSS Starter Pack
+# EduConnect
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+[![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)](https://reactjs.org/) 
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js&logoColor=white)](https://nodejs.org/) 
+[![Express](https://img.shields.io/badge/Express.js-4.18.2-black?logo=express&logoColor=white)](https://expressjs.com/) 
+[![MongoDB](https://img.shields.io/badge/MongoDB-7.0.3-green?logo=mongodb&logoColor=white)](https://www.mongodb.com/) 
+[![Razorpay](https://img.shields.io/badge/Razorpay-Payment-blue)](https://razorpay.com/)
 
-## Usage
+**EduConnect** is a full-stack MERN EdTech platform that enables instructors to create and manage courses while students securely enroll and access learning content. The platform focuses on secure authentication, smooth UX, and seamless payment integration.
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+---
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+## Tech Stack
+- **Frontend:** React.js, Tailwind CSS, Redux Toolkit  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **Authentication:** JWT, Bcrypt  
+- **Payment Gateway:** Razorpay  
+- **Other Tools:** Cloudinary (file upload), Node-schedule, Axios  
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+---
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+## Features
+### Instructor
+- Create, update, and manage courses with rich content.  
+- Monitor student enrollments and payments.  
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+### Student
+- Browse and enroll in courses securely.  
+- Make payments via Razorpay to access courses instantly.  
+- Track learning progress using interactive features.  
 
-## Contributing
+### Security & Performance
+- Secure authentication and authorization using JWT and Bcrypt.  
+- RESTful APIs for smooth frontend-backend communication.  
+- Efficient state management with Redux Toolkit.  
+- Scalable file uploads with Cloudinary.  
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+---
+
+## Demo
+![EduConnect Demo](./assets/demo.png)  
+*Screenshot of EduConnect user dashboard (replace with your actual screenshot)*  
+
+---
+
+## Installation
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Mudassar123khan/EduConnect
+   cd EduConnect
+2.Install frontend dependencies:
+```bash
+npm install
+```
+3.Install backend dependencies:
+```bash
+cd server
+npm install
+```
+## Create a .env file in the server/ folder with required variables:
+```bash
+MONGO_URI=<your_mongodb_uri>
+JWT_SECRET=<your_jwt_secret>
+RAZORPAY_KEY_ID=<your_key_id>
+RAZORPAY_KEY_SECRET=<your_key_secret>
+CLOUDINARY_CLOUD_NAME=<cloud_name>
+CLOUDINARY_API_KEY=<api_key>
+CLOUDINARY_API_SECRET=<api_secret>
+```
+
+## Running the Project:
+```bash
+npm run dev
+```
+## Project Structure:
+```bash
+EduConnect/
+├─ server/              # Backend logic, APIs, MongoDB models
+├─ node_modules/        # Project dependencies
+├─ public/              # React public assets
+├─ src/                 # React frontend code
+├─ package.json         # Frontend scripts & dependencies
+├─ server/package.json  # Backend scripts & dependencies
+├─ .env                 # Backend environment variables
+└─ README.md
+```
+## Future Enhancements:
+   1.Live video streaming for courses.
+
+   2.Quizzes and certifications for students.
+
+   3.Admin dashboard for monitoring platform activity.
+
+# License
+This project is licensed under the MIT License.
