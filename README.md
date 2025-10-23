@@ -6,41 +6,50 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-7.0.3-green?logo=mongodb&logoColor=white)](https://www.mongodb.com/) 
 [![Razorpay](https://img.shields.io/badge/Razorpay-Payment-blue)](https://razorpay.com/)
 
-**EduConnect** is a full-stack MERN EdTech platform that enables instructors to create and manage courses while students securely enroll and access learning content. The platform focuses on secure authentication, smooth UX, and seamless payment integration.
+EduConnect is a full-stack MERN EdTech platform where anyone can come and learn what they want. The platform supports three distinct roles — **Student**, **Instructor**, and **Admin**. Instructors can list their courses, students can purchase and learn from them, and admins can monitor all platform activities for smooth operation and security.
 
 ---
 
-## Tech Stack
-- **Frontend:** React.js, Tailwind CSS, Redux Toolkit  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **Authentication:** JWT, Bcrypt  
-- **Payment Gateway:** Razorpay  
-- **Other Tools:** Cloudinary (file upload), Node-schedule, Axios  
+##  Tech Stack
+
+**Frontend:** React.js, Tailwind CSS, Redux Toolkit  
+**Backend:** Node.js, Express.js  
+**Database:** MongoDB  
+**Authentication:** JWT, Bcrypt, OTP via Email  
+**Payment Gateway:** Razorpay  
+**Other Tools:** Cloudinary (file uploads), Node-schedule, Axios, Nodemailer
 
 ---
 
-## Features
-### Instructor
-- Create, update, and manage courses with rich content.  
-- Monitor student enrollments and payments.  
+##  Features
 
-### Student
-- Browse and enroll in courses securely.  
-- Make payments via Razorpay to access courses instantly.  
-- Track learning progress using interactive features.  
+###  Student
+- Create an account, verify OTP via email, and log in securely.  
+- Browse available courses and purchase them through **Razorpay**.  
+- Access purchased courses and track learning progress.  
+- Receive confirmation emails upon successful registration.  
+- Communicate with the admin through the **Contact Us** section via email.
 
-### Security & Performance
-- Secure authentication and authorization using JWT and Bcrypt.  
-- RESTful APIs for smooth frontend-backend communication.  
-- Efficient state management with Redux Toolkit.  
-- Scalable file uploads with Cloudinary.  
+###  Instructor
+- Create, manage, and update courses with rich multimedia content.  
+- Monitor enrolled students and their payments.  
+- Manage course visibility and availability in real-time.
+
+###  Admin
+- Monitor platform-wide activity, including user and course management.  
+- Handle communication requests from students and instructors.  
+- Ensure secure platform operations and manage database integrity.
 
 ---
 
-## Demo
-![EduConnect Demo](./assets/demo.png)  
-*Screenshot of EduConnect user dashboard (replace with your actual screenshot)*  
+##  Security & Performance
+
+- **JWT-based authentication** and **bcrypt** password hashing for secure user access.  
+- **Email-based OTP verification** for additional security during sign-in.  
+- **Razorpay integration** for smooth and secure payments.  
+- **Cloudinary integration** for scalable media file storage.  
+- **Redux Toolkit** for efficient and consistent state management.  
+- Fully **responsive UI** optimized for mobile, tablet, and desktop devices.
 
 ---
 
@@ -93,5 +102,12 @@
 
    3.Admin dashboard for monitoring platform activity.
 
-# License
+## License
   This project is licensed under the MIT License.
+
+## Author
+Mohd Mudassir Khan
+Hotel & Property Booking Platform Developer
+📧 12mudassarkhan@gmail.com
+
+# ⭐ If you like this project, consider giving it a star on GitHub!
